@@ -8,7 +8,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(65, 105, 225);
+    background-color: rgb(66, 68, 75)
 }
 .logo{
     margin-left: 15px;
@@ -68,7 +68,7 @@ h1{
     padding: 10px 20px;
     border: 1px solid lightsalmon;
     border-radius: 20px;
-    background-image: linear-gradient(lightsalmon, tomato);
+    background-image: linear-gradient(to right, lightsalmon, tomato);
 }
 .order-btn a{
     text-decoration: none;
@@ -128,9 +128,20 @@ h1{
     margin: auto;
     display: flex;
     justify-content: center;
-    background-color: aqua;
+    background-color: aquamarine;
+    border-left: 7px solid rgb(102, 100, 99);
+    border-right: 7px solid rgb(102, 100, 99);
     border-radius: 30px;
 }
 .connection{
     padding: 20px 100px;
+}
+
+footer{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(12, 14, 14);
+    color: white;
+    text-align: center;
+
 }
