@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* css of navbar section started*/
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(65, 105, 225);
+}
+.logo{
+    margin-left: 15px;
+    padding: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.logo:hover{
+    font-size: 20px;
+    cursor: pointer;
+}
+.nav-links ul{
+    list-style: none;
+    text-align: center;
+}
+.nav-links ul li{
+    padding: 10px;
+    display: inline-block;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: honeydew;
+}
+.nav-links ul li a:hover{
+    background-color: violet;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.book-btn{
+    border: 1px solid honeydew;
+    background: transparent;
+    border-radius: 30px;
+}
+.book-btn a:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+/* css of navbar section ended*/
+
+/* css of top-banner section started*/
+.top-banner{
+    margin-top: 2%;
+    display: flex;
+    width: 100%;
+    margin-bottom: 3%;
+}
+h1{
+    font-size: 40px;
+}
+.half-width{
+    width: 50%;
+    padding: 0 2%;
+    margin: auto;
+}
+.order-btn{
+    padding: 10px 20px;
+    border: 1px solid lightsalmon;
+    border-radius: 20px;
+    background-image: linear-gradient(lightsalmon, tomato);
+}
+.order-btn a{
+    text-decoration: none;
+    color: white;
+}
+.half-width img{
+    width: 90%;
+}
+/* css of top-banner section ended*/
+
+/* css of about-me section started*/
+.about-me{
+    display: flex;
+    width: 100%;
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 3%;
+}
+.contact-btn{
+    padding: 10px 20px;
+    border: 1px solid lightsalmon;
+    border-radius: 20px;
+    background-image: linear-gradient(lightsalmon, tomato);
+}
+.contact-btn a{
+    text-decoration: none;
+    color: white;
+}
+/* css of about-me section ended*/
+
+/* css of recipie-zone section started*/
+
+.recipie-zone{
+    width: 90%;
+    margin:auto;
+}
+.recipie-items{
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+    
+}
+.recipie-info{
+    width: 27%;
+    padding: 3%;
+    margin: 0 2%;
+    box-shadow: 10px 20px 30px grey;
+    border-radius: 20px;
+}
+.recipie-info img{
+    width: 320px;
+}
+
+/* css of recipie-zone section started*/
+.socail-connectivity{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    border-radius: 30px;
+}
+.connection{
+    padding: 20px 100px;
+}
